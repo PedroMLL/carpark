@@ -1,0 +1,6 @@
+docker-compose.yml
+.vscode/
+keys/
+.git/
+.gitignore
+node_modules/

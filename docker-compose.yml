@@ -1,0 +1,18 @@
+version: '3.2'
+services:
+  postgres:
+    image: postgres:alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_PASSWORD: test
+      POSTGRES_USER: test
+  app:
+    build: ./
+    links:
+    - postgres
+    depends_on:
+    - postgres
+    environment:
+      DATABASE_URL: postgres://test:test@postres:5432/test
+    ports: 
+    - 3000:3000

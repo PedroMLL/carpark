@@ -1,0 +1,37 @@
+{
+  "name": "carpark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": ">=7.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PedroMLL/carpark.git"
+  },
+  "author": "Pedro Mangabeira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PedroMLL/carpark/issues"
+  },
+  "homepage": "https://github.com/PedroMLL/carpark#readme",
+  "dependencies": {
+    "epimetheus": "^1.0.55",
+    "joi": "^13.1.2",
+    "jsonwebtoken": "^8.2.1",
+    "knex": "^0.14.4",
+    "objection": "^1.1.2",
+    "objection-password": "^1.0.0",
+    "objection-soft-delete": "^1.0.4",
+    "pg": "^7.4.1",
+    "restify": "^7.1.0",
+    "restify-api-validation": "^1.4.5",
+    "restify-errors": "^6.0.0",
+    "restify-jwt-community": "^1.0.3",
+    "throng": "^4.0.0"
+  }
+}
